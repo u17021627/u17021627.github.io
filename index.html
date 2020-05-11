@@ -1,164 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>THETA Mouthpiece-UserManagement</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-  background-color: black;
-  padding: 30px;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
   text-align: center;
-  font-size: 25px;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
   color: white;
-}
-
-nav {
-  float: left;
-  width: 30%;
-  height: 600px;
-  background: #f1f1f1;
-  padding: 20px;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  list-style-type: circle;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-}
-
-article h2{
-  text-decoration: underline;
-}
-
-footer {
-  background-color: black;
-  padding: 10px;
+  background-color: #000;
   text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
   color: black;
 }
 
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
+button:hover, a:hover {
+  opacity: 0.7;
 }
 </style>
 </head>
 <body>
 
-<header>
-  <h2>THETA Mouthpiece-UserManagement</h2>
-  <h3>COS 301 : Mini Project Final Demo</h3>
-</header>
+<h2 style="text-align:center">Data Scientist</h2>
 
-<section>
-  <nav>
-    <img src="./UP.png">
-    <h3>Github Repository:</h3>
-    <a href="https://github.com/FJSnyman/Mouthpiece-UserManagement">FJSnyman Mouthpiece-UserManagement</a>
-    <h3>Project Management Tool</h3>
-    <a href="https://theta-user-management.monday.com/">Monday.com</a>
-    <h3>LinkedIn Profiles:</h3>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/steven-jordaan-397998166/">Steven Jordaan</a></li>
-      <li><a href="https://www.linkedin.com/in/james-jenkins-ferrett-317a1a1a4/">James-Jenkins Ferret</a></li>
-      <li><a href="https://www.linkedin.com/in/brendan-jansen-van-rensburg-3787461a9/">Brendan Jansen van Rensburg</a></li>
-      <li><a href="https://www.linkedin.com/in/zachary-christophers">Zachary Christophers</a></li>
-      <li><a href="https://www.linkedin.com/in/tsholofelo-gomba-8189b712b">Tsholofelo Gomba</a></li>
-      <li><a href="https://www.linkedin.com/in/kgothalang-moifo-0a773b1a9">Kgothalang Moifo</a></li>
-      <li><a href="https://www.linkedin.com/in/jaime-tellie-7847b6139/">Jaime Tellie</a></li>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>Team Member Profile:</h1>
-    <h2>Steven Jordaan</h2>
-    <h4>u18074848@tuks.co.za</h4>
-   <ul>
-      <li><strong>Current Position:</strong> Student</li>
-      <li><strong>Interests:</strong> Programming, Theoretical Computer Science, Japanese Culture, Reading.</li>
-      <li><strong>Skills:</strong> Languages - C++, C# (ASP), Java, ASMx86, PHP, ES6, MySQL Related - git, project management</li>
-      <li><strong>Work Experience:</strong> COS210 Tutor (01/2020-Current) University of Pretoria, Freelance writer (01/2018-Current).</li>
-      <li><strong>Bio.</strong> I am currently studying BSc Information and Knowledge Systems with my elective group dipping into software developement. I have many interests in the IT field such as Interaction Design, Web Developement, App Developement, Alogorithms, Theoretical Computer Science etc. but I am not only interested in IT, I also find many other fields such as Biology, Engineering, and even Psychology to be fascinating. One of the few things I enjoy doing in my free time is playing games, watching some anime or even reading (Novels or Manga).</li>
-    </ul>
-    <h2>James-Jenkins Ferret</h2>
-    <h4>u18047701@tuks.co.za</h4>
-   <ul>
-      <li><strong>Current Position:</strong> Student</li>
-      <li><strong>Interests:</strong> Programming, Computer Science, Rowing, Science Fiction, Puzzles.</li>
-      <li><strong>Skills:</strong> Languages - C++, Java, YASM, PHP, Javascript, MySQL</li>
-      <li><strong>Work Experience:</strong> Rowing Coach (2017-2018) St Stithains College.</li>
-      <li><strong>Bio.</strong> I am currently studying for my 3rd year in Computer Science at UP. I am generally interested in pursuing a career in IT, and specifically, I am interested in the ever evolving fields of Cyber security and AI. Outside of IT I have numerous interests in logic puzzles, (such as rubik's cubes and sudokus) video games, Formula1, NFL. I also enjoy reading Science fiction or Fantasy novels.</li>
-    </ul>
-    <h2>Brendan Janse van Rensburg</h2>
-    <h4>u18304568@tuks.co.za</h4>
-    <ul>
-      <li><strong>Current Position:</strong> Student</li>
-      <li><strong>Interests:</strong> Network security, computer security, programming and artlure fishing.</li>
-      <li><strong>Skills:</strong> Java, C++, Web development, MySQL</li>
-      <li><strong>Work Experience:</strong> COS212 Teaching Assistant, University of Pretoria(02/2020-Current).</li>
-      <li><strong>Bio.</strong> Currently a 3rd Year BIT student at the University of Pretoria, all though I find computer and network security interesting, my primary focus will always be software development. I enjoy learning new programming languages and frameworks. I like to pass time by playing strategic computer games and would never pass up the opportunity to go camping or fishing.</li>
-    </ul>
-    <h2>Zachary Christophers</h2>
-    <h4>u17011125@tuks.co.za</h4>
-    <ul>
-      <li><strong>Current Position:</strong> Student</li>
-      <li><strong>Interests:</strong> Game Development, Physics-based programming, Procedural generation, Reading and League of Legends.</li>
-      <li><strong>Skills:</strong> Languages - C++, C# & ASP.NET, Java, Javascript, MySQL, SQL Server, Python, Ruby Related - Network creation, management and maintenance (CCNA 1,2,3).</li>
-      <li><strong>Work Experience:</strong> Intern (Developer) - Synerics, December 2016 - February 2017 Junior Developer - ZA Uniforms, May 2017 - August 2017 (company closed) Intern (Application development) - Momentum, MMI, December 2017 - February 2018 Junior Developer (Part-time) - Momentum, MMI, March 2018 - October 2018 Senior Developer, 2018 Varsity College Grade 12 IT Teacher, Database Manager - Ecko Safety, May 2019 - Present.</li>
-      <li><strong>Bio.</strong> I am currently studying BSc Computer Science at the University of Pretoria, in my final year. I am heavily interested in game development, and specifically in the physics behind movement and interactions in video games - the flight of an arrow, the distance calculations involved in making a character jump, and so on. The way in which the graphics of a game are mathematically manipulated to emulate these physics interactions are of immense interest to me as well.</li>
-    </ul>
-    <h2>Tsholofelo Gomba</h2>
-    <h4>u17391718@tuks.co.za</h4>
-    <ul>
-      <li><strong>Current Position:</strong> Student</li>
-      <li><strong>Interests:</strong> Everything C# and ASP.Net MVC programming. I prefer programming over frontend design. I also enjoy reading manga, manhwa, novels and playing computer games</li>
-      <li><strong>Skills:</strong> C#, ASP.Net MVC, Java, C++, Node.js/ES6/JS/Angular/Ionic/Electron/React, Database Programming.</li>
-      <li><strong>Work Experience:</strong> Database Systems Peer Collaborator/Tutor at Monash South Africa(July 2016 - September 2016), Sales Associate at Oh My Baby Menlyn (May 2017 -  December 2018), Petsitter (July 2019).</li>
-      <li><strong>Bio.</strong> I am a hardwoking and competent third year student at the University or Pretoria studying BSc Information and Knowledge Systems with my major in Software Development. I am a flexible, reliable, enthusiastic and well organized team player with good communication and interpersonal skills. I am willing to learn, take instruction well and can adapt quickly to new situations. I am able to apply the knowledge I have gained throughout the course of my degree in a logical way in order to solve problems.</li>
-    </ul>
-    <h2>Kgotolang Moifo</h2>
-    <h4>u17311391@tuks.co.za</h4>
-    <ul>
-      <li><strong>Current Position:</strong> Student</li>
-      <li><strong>Interests:</strong> Web development, cyber security, and app development.</li>
-      <li><strong>Skills:</strong> C#, Javascript,Java, C++, Web development, MySQL, ReactJS, php.</li>
-      <li><strong>Work Experience:</strong> N.A.</li>
-      <li><strong>Bio.</strong> I am currently a 3rd Year Bsc I.T(information & knowledge systems) student at the University of Pretoria. Software development has always been some something I have passion for. I have interests in acquiring more knowledge of app development. The things I enjoy apart from I.T stuff, is being outdoors, and playing video games.</li>
-    </ul>
-    <h2>Jaime Tellie</h2>
-    <h4>u17021627@tuks.co.za</h4>
-    <ul>
-      <li><strong>Current Position:</strong> Student</li>
-      <li><strong>Interests:</strong> Data Science, Machine Learning, Artificial Intelligence, Deep Learning, Big Data.</li>
-      <li><strong>Skills:</strong> Java, Database Systems, Data Analtyics, C++, Web Development.</li>
-      <li><strong>Work Experience:</strong> Call Centre Marketing Agent, Platinum Life (08/2018-08/2018).
-      Teaching Assistant, University of Pretoria (02/2020-Current).</li>
-      <li><strong>Bio.</strong> I am a final year BSc Computer Science student. I am a analytical thinker committed and driven in learning software/technological systems, with a huge passion and interest in Data Science/Analytics.</li>
-    </ul>
-  </article>
-</section>
-
-<footer>
-  <p>footer</p>
-</footer>
+<div class="card">
+  <img src="index.jpg" alt="Jaime" style="width:100%">
+  <h1>Jaime Tellie</h1>
+  <p class="title">BSc Computer Science Student</p>
+  <p>University of Pretoria, South Africa</p>
+  <div style="margin: 24px 0;">
+    <a href="https://www.instagram.com/matty_jayt/"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/jaime-tellie-7847b6139/"><i class="fa fa-linkedin"></i></a>  
+    <a href="https://web.facebook.com/jaime.tellie"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Contact</button></p>
+</div>
 
 </body>
 </html>
